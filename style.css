@@ -1,0 +1,76 @@
+
+h1{
+  margin: 0px;
+  position:absolute;
+  height: 100%;
+ font-size: 45px;
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  
+}
+#main{
+  max-width: 400px;
+  height: 80vh;
+  border: 2px solid rgb(22, 0, 148);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+#out{
+  width: 80%;
+  height: 75px;
+  border: 2px solid rgb(22, 0, 148);
+  background-color: rgb(142, 142, 197);
+  color:black;
+  font-size: 2.5rem;
+}
+#answer{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 10px 0px; 
+  
+
+}
+.buttons{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+#equals{
+  width:160px;
+  height:80px;
+  border-radius:15px;
+}
+.buttons button{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 5px;
+  font-size: 25px;
+  border: 2px solid rgb(22, 0, 148);
+}
+.buttons button:hover{
+  color:black;
+  background-image: linear-gradient(rgb(100, 58, 206),rgb(169, 148, 226));
+}
+
+
+.grid-item btn{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
